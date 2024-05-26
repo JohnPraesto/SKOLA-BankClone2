@@ -2,6 +2,8 @@
 - [ ]  Fundera på vilka saker som kan gå fel i dessa delar av koden
 - [ ]  Skriv ner vilka delar du valde ut, samt vad du tänker kan gå fel i dessa, i din ReadMe-fil för projektet
 
+-
+
 Klass: UserManager
 
 Metod: CreateInitialUsers
@@ -10,6 +12,7 @@ Test: Systemet behöver administratörer för att kunna skapa nya användare och
 
 Möjliga fel: Admin-klassens properties kan ha satts fel. Administratörerna läggs in till i administratörs-listan.
 
+-
 
 Klass: CurrencyConverter
 
@@ -19,6 +22,7 @@ Test: En kund får inte låna mer än fem gånger värdet av sina tillgångar. F
 
 Möjliga fel: En kunds alla konton måste laddas in till metoden. Och eftersom värdet på en kunds alla konton, som kan ha olika valutor, måste alla valutor adderas på rätt sätt till SEK.
 
+-
 
 Klass: CurrencyConverter
 
